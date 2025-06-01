@@ -12,8 +12,10 @@ body{
     z-index: 500;
     width: 100%;
     height: 80px;
-    background-image: url(P.images/wood-bg.png);
+    background-image: url(P.images/zoo.background.png);
     background-repeat: repeat-x;
+    box-shadow: 0 0 10px #00f0ff,0 0 20px #00f0ff;
+    transition: box-shadow 0.3s ease;
 }
 #header img{
     display: block;
@@ -31,7 +33,30 @@ body{
     z-index: 500;
     width: 100%;
     height: 40px;
-    background-color: darkgreen
+    background-color: black;
+    border-radius:8px;
+    box-shadow: 0 0 10px #00f0ff,0 0 20px #00f0ff;
+    transition: box-shadow 0.3s ease;
+    
+}
+#tabs-top a:hover{
+    padding: 150x 150px;
+    border-radius:8px;
+    background-color: aqua;
+    box-shadow: 0 0 10px #00f0ff,0 0 20px #00f0ff;
+    transition: box-shadow 0.5s ease;
+    color: black;
+    font-size: 20px;
+    
+}
+#tabs-bottom a:hover{
+    padding: 150x 150px;
+    border-radius:8px;
+    background-color: aqua;
+    box-shadow: 0 0 10px #00f0ff,0 0 20px #00f0ff;
+    transition: box-shadow 0.5s ease;
+    color: black;
+    font-size: 20px;
 }
 
 #tabs-top a{
@@ -40,10 +65,11 @@ body{
     width: 33%;
     height: 35px;
     font-weight: 700;
-    color: white;
     text-align: center;
     text-decoration: none;
     padding-top: 12px;
+    color: aqua
+    
 
 }
 
@@ -61,7 +87,10 @@ body{
     z-index: 500;
     width: 100%;
     height: 40px;
-    background-color: forestgreen;
+    background-color: black;
+    border-radius:8px;
+    box-shadow: 0 0 10px #00f0ff,0 0 20px #00f0ff;
+    transition: box-shadow 0.3s ease;
 
 
 }
@@ -71,7 +100,7 @@ body{
     width: 50%;
     height: 35px;
     font-weight: 700;
-    color: white;
+    color: aqua;
     text-align: center;
     text-decoration: none;
     padding-top: 12px;
@@ -99,18 +128,26 @@ a.info-box{
     margin:auto;
     margin-top: 12px;
     padding:1px;
+    border-radius:8px;
+    box-shadow: 0 0 10px #00f0ff,0 0 20px #00f0ff;
+    transition: box-shadow 0.3s ease;
+   
 }
 .info-box img{
     height:70px;
     margin:10px;
     float:left;
+    
 
 }
 .info-box h3{
     padding: 0;
     margin-bottom: 0;
     width: 90%;
-    color:brown
+    color:black;
+
+    
+
 }
 .info-box p{
     margin: 0;
@@ -123,6 +160,8 @@ a.info-box{
     float:right;
     margin-top:25px;
     height: 40px;
+    
+    
 
 }
 
@@ -134,6 +173,7 @@ a.info-box{
     margin:auto;
     margin-top:12px;
     padding:10px;
+    background-color: aqua;
 
 
 }
@@ -171,6 +211,9 @@ input{
     height:25px;
     margin:12px 0;
     border:1px solid #929292; 
+    border-radius:8px;
+    box-shadow: 0 0 10px #00f0ff,0 0 20px #00f0ff;
+    transition: box-shadow 0.3s ease;
 
 }
 
@@ -179,17 +222,23 @@ textarea{
     height:65px;
     margin:12px 0;
     border:1px solid #929292; 
+    border-radius:8px;
+    box-shadow: 0 0 10px #00f0ff,0 0 20px #00f0ff;
+    transition: box-shadow 0.3s ease;
 }
 .button{
     display:block;
-    width:100%
-    background-color=forestgreen;
+    width:100%;
+    color: aqua;
     text-decoration:none;
     text-align:center;
-    color:orangered;
-    font-size:16px;
+    font-size:12px;
     font-weight:600;
     margin:12px 0;
     padding:8px 0;
+      background-color: black;
+    border-radius:8px;
+    box-shadow: 0 0 10px #00f0ff,0 0 20px #00f0ff;
+    transition: box-shadow 0.3s ease;
 
 }
